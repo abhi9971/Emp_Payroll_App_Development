@@ -6,5 +6,5 @@ import java.util.Optional;
 
 public interface EmployeeAppRepository extends JpaRepository<EmployeeModel, Integer>{
 
-    Optional<EmployeeModel> findById(Integer id);
+    
 }
