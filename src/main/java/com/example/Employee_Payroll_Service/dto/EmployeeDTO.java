@@ -12,8 +12,6 @@ public class EmployeeDTO {
     private LocalDate date;
     private String notes;
 
-
-
     public EmployeeDTO(String firstName, String lastName, String profilepic, String department, long salary,
                        LocalDate date, String notes) {
         super();
