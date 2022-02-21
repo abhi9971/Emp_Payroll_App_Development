@@ -78,9 +78,6 @@ public class EmployeeModel {
         this.notes = dto.getNotes();
     }
 
-    public EmployeeModel(Integer id, EmployeeModel employee) {
-    }
-
     public Integer getId() {
         return id;
     }
